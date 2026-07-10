@@ -1,0 +1,64 @@
+{
+  "ServerInfo": {
+    "Maintenance": false,
+    "Message": {
+      "Title": "Digital Shinka Online In Development.",
+      "Msg": "The server is undergoing inspection or updates.\nConnect to https://discord.gg/vtNnzfSF for more information."
+    }
+  },
+  "PatchInfo": {
+    "DownloadUrl": "http://divineplanorigin.online:9090/REO/UpdatePatch/",
+    "MinPatchVersion": 1,
+    "PatchVersion":193
+  },
+  "LanuncherInfo": {
+    "DownloadPath": "http://divineplanorigin.online:9090/REO/Launcher/",
+    "CurrentVersion": 319,
+    "ExeFileName": "DE Launcher.exe",
+    "RunExeFileName": "DigitalRevolution.exe",
+    "VersionList": [
+      {
+        "Version": 319,
+        "DownloadFile": "Launcher_319.zip"
+      }
+]
+  },
+  "UMInfo": {
+    "DownloadPath": "http://divineplanorigin.online:9090/REO/UpdateManager/",
+    "CurrentVersion": 11,
+    "ExeFileName": "UpdateManager.exe",
+    "RunExeFileName": "DigitalRevolution.exe",
+    "VersionList": [
+      {
+        "Version": 11,
+        "DownloadFile": "UM_11.zip"
+      }
+    ]
+  },
+  "Redist": {
+    "Execute": "vcredist_x86.exe",
+    "Command": "/install /passive /norestart",
+    "Registry": [
+      {
+        "Reg": "SOFTWARE\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\X86"
+      },
+      {
+        "Reg": "SOFTWARE\\WOW6432Node\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\X86"
+      }
+    ]
+  },
+  "RumbleConfig": "divineplanorigin.online:9090/REO/RumbleConfig.json",
+  "MainUrl": [
+    {
+      "TypeName": "GSP",
+      "HomePageUrl": "https://discord.gg/vtNnzfSF",
+      "GameDownloadUrl": "http://103.216.155.227:9090/REO/GAME/Digital Revolution.exe",
+      "MainPageUrl": "http://divineplanorigin.online:9090/REO/main.html",
+      "BanerUrl": "http://divineplanorigin.online:9090/REO/banner.html",
+      "ClientIP": "game.digitalshinkaonline.com",
+	    "ClientPort": "7605",
+      "Unlock":false
+	  
+    }
+  ]
+}
