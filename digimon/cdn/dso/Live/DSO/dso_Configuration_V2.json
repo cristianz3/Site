@@ -9,7 +9,7 @@
   "PatchInfo": {
     "DownloadUrl": "https://jazepai.github.io/Site/UpdatePatch/",
     "MinPatchVersion": 1,
-    "PatchVersion":100
+    "PatchVersion":101
   },
   "LanuncherInfo": {
     "DownloadPath": "https://jazepai.github.io/Site/Launcher/",
